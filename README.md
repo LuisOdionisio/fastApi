@@ -196,31 +196,3 @@ make makemigrations msg="Nova funcionalidade"
 make db-down
 ```
 
-### 🎨 Boas Práticas Implementadas
-
-- **Separação de responsabilidades** (Controllers, Models, Schemas)
-- **Injeção de dependências** com FastAPI
-- **Async/await** para operações assíncronas
-- **Type hints** em todo o código
-- **Documentação automática** com docstrings
-- **Logs estruturados** (SQLAlchemy echo)
-- **Paginação eficiente** com fastapi-pagination
-
-## 🤝 Contribuição
-
-1. Fork o projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/nova-funcionalidade`)
-3. **Escreva testes primeiro** (TDD)
-4. Implemente a funcionalidade
-5. Execute os testes (`make test`)
-6. Commit suas mudanças (`git commit -am 'Adiciona nova funcionalidade'`)
-7. Push para a branch (`git push origin feature/nova-funcionalidade`)
-8. Abra um Pull Request
-
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
-
----
-
-**Desenvolvido com ❤️ seguindo práticas de TDD e Clean Architecture** 
